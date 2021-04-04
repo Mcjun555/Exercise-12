@@ -1,0 +1,143 @@
+	* {
+  		box-sizing: border-box;
+	}
+	
+	body{
+		font-family:Verdana;
+	}
+	
+	.topleft{
+		background-image: url("banaues.jpg");
+		height: 200px;
+		float:left;
+  		width:50%;
+		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #FFF25A;
+		border-radius: 10px;
+	}
+	
+	.topright{
+		background-image: url("corregidors.jpg");
+		height: 200px;
+  		float:left;
+  		width:50%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #CFCFCF;
+		border-radius: 10px;
+	}
+	
+	.main{
+		background-image: url("pinas.jpg");
+		height: 500px;
+		padding:15px; 
+		text-align:center;
+		margin-top: 7px;
+		color: #000000;
+		border-radius: 10px;
+	}
+	
+	.midone{
+		background-image: url("kayangans.jpg");
+		height: 180px;
+  		float:left;
+  		width:33.33%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #D4D4D4;
+		border-radius: 10px;
+	}
+	
+	.midtwo{
+		background-image: url("lapsays.jpg");
+		height: 180px;
+  		float:left;
+  		width:33.32%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #939393;
+		border-radius: 10px;
+	}
+	
+	.midthree{
+  		background-image: url("mayons.jpg");
+		height: 180px;
+  		float:left;
+  		width:33.33%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #000FBC;
+		border-radius: 10px;
+	}
+	
+	.botone{
+		background-image: url("nacpans.jpg");
+		height: 150px;
+  		float:left;
+  		width:25%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #892E00;
+		border-radius: 10px;
+	}
+	
+	.bottwo{
+		background-image: url("niludhans.jpg");
+		height: 150px;
+  		float:left;
+  		width:25%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #FFF857;
+		border-radius: 10px;
+	}
+	
+	.botthree{
+		background-image: url("tubbatahas.jpg");
+		height: 150px;
+  		float:left;
+  		width:25%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #892E00;
+		border-radius: 10px;
+	}
+	
+	.botfour{
+		background-image: url("vigans.jpg");
+		height: 150px;
+  		float:left;
+  		width:25%;
+  		padding:15px;
+  		margin-top:7px;
+  		text-align:center;
+		color: #000000;
+		border-radius: 10px;
+	}
+
+	@media only screen and (max-width:320px) {
+  		.midone, .midtwo, .midthree, .topleft, .topright, .botone, .bottwo, .botthree, .botfour{
+    		width: 100%;
+ 	 	}
+	}
+	
+	@media only screen and (max-width:760px) {
+  		.midone, .midtwo, .midthree, .topleft, .topright{
+    		width: 100%;
+ 	 	}
+	}
+	
+	@media only screen and (max-width:760px) {
+		.botone, .bottwo, .botthree, .botfour{
+			width: 50%;
+		}
+	}
